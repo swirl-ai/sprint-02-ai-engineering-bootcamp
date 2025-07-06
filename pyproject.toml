@@ -1,0 +1,24 @@
+[project]
+name = "01-ai-engineering-bootcamp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai",
+    "groq",
+    "openai",
+    "pydantic",
+    "pydantic-settings",
+    "streamlit",
+    "qdrant_client",
+    "langsmith",
+    "langchain-openai",
+    "ragas",
+    "rapidfuzz",
+    "ipykernel",
+    "instructor",
+    "fastapi",
+    "uvicorn",
+    "httpx",
+]
